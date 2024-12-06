@@ -1,0 +1,65 @@
+.showAlbums {
+  height: 100vh;
+  width: 100%;
+  background-color: #2a2a2a;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+
+  .row {
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+
+    .album {
+      height: 400px;
+      width: 22%;
+
+      .cover {
+        height: 250px;
+        width: 100%;
+        background-color: darkgray;
+      }
+
+      .album-info {
+        margin-top: 20px;
+        width: 100%;
+        height: 50px;
+        color: white;
+
+        .title {
+          display: flex;
+          justify-content: space-between;
+          font-size: 24px;
+
+          p {
+            margin-top: 10px;
+            font-family: JMedium;
+          }
+        }
+
+        .artist {
+          display: flex;
+          font-size: 20px;
+
+          p {
+            margin-top: 10px;
+            font-family: JMedium;
+          }
+        }
+
+        .genre {
+          display: flex;
+          justify-content: space-between;
+          font-size: 20px;
+
+          p {
+            margin-top: 10px;
+            font-family: JMedium;
+          }
+        }
+      }
+    }
+  }
+}

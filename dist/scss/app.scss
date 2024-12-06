@@ -1,0 +1,91 @@
+#app {
+  font-family: JMedium;
+  .hero {
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/pexels-merve-44394884-7497788.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      color: #ff7e34;
+      font-size: 70px;
+    }
+
+    p {
+      color: #fff;
+      width: 500px;
+      text-align: center;
+      line-height: 30px;
+    }
+  }
+
+  .home {
+    width: 100%;
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content: center;
+
+    .home-content {
+      width: 70%;
+      height: 100%;
+
+      .home-row1 {
+        margin-top: 50px;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .row1-cont1 {
+          display: flex;
+          align-items: baseline;
+          justify-content: space-between;
+          width: 320px;
+
+          h1 {
+            color: #ff7e34;
+          }
+
+          p {
+            color: #fff;
+          }
+        }
+
+        .row1-cont2 {
+          display: flex;
+          justify-content: space-between;
+          width: 550px;
+
+          .filters {
+            background-color: #131313;
+            height: 50px;
+            width: 100px;
+            border-radius: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+          }
+
+          .search {
+            background-color: #131313;
+            height: 50px;
+            width: 400px;
+            border-radius: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
