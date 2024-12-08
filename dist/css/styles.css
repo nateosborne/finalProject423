@@ -155,7 +155,6 @@ nav a:hover {
 .showAlbums .row .album .cover {
   height: 250px;
   width: 100%;
-  background-color: darkgray;
 }
 .showAlbums .row .album .album-info {
   margin-top: 20px;
