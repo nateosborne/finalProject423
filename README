@@ -1,0 +1,17 @@
+The full website is located here:
+
+https://nateosborne.github.io/finalProject423/dist/
+
+This website will be utilized for music fans to find their favorite albums from artists and be able to give it a public rating out of 10, along with a written review (if wanted) to show their opinions. They will be able to have their own account to see their own reviews and scores. Each album that has reviews will have an averaged rating from each review that has been posted.
+
+Once entered into the website, the user will be able to view:
+A list of various albums that have been reviewed along with its average rating score
+The album list will include the cover, title, artist, date released, and genre
+A search bar that can sort through artists by album title artist name, along with a filter for genre
+
+The individual album page will include:
+The cover, title, artist, date released, genre, tracklist, and description
+A total rating number by all available reviews from users along with their review if they have posted one for this album
+A list of reviews under the album information with the ability to add a their own review
+
+There is also an account function where the user can sign up and log in to an account and view their own reviews
